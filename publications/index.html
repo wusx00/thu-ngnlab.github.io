@@ -1,0 +1,696 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="论文发表, NGNLab">
+    <meta name="description" content="论文发表 | NGNLab">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>论文发表 | NGNLab</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/ngnlab.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">NGNLab</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>主页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/research" class="waves-effect waves-light">
+            
+            <i class="fa fa-tasks"></i>
+            
+            <span>研究内容</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/members" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-card"></i>
+            
+            <span>研究队伍</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/publications" class="waves-effect waves-light">
+            
+            <i class="fa fa-university"></i>
+            
+            <span>论文发表</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/projects" class="waves-effect waves-light">
+            
+            <i class="fa fa-cubes"></i>
+            
+            <span>研究项目</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/resources" class="waves-effect waves-light">
+            
+            <i class="fa fa-download"></i>
+            
+            <span>开放资源</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/contact" class="waves-effect waves-light">
+            
+            <i class="fa fa-envelope"></i>
+            
+            <span>联系方式</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/ngnlab.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">NGNLab</div>
+        <div class="logo-desc">
+            
+            Lab of New Generation Network Technology &amp; Applications, Tsinghua University
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                主页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/research" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tasks"></i>
+                
+                研究内容
+            </a>
+        </li>
+        
+        <li>
+            <a href="/members" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-card"></i>
+                
+                研究队伍
+            </a>
+        </li>
+        
+        <li>
+            <a href="/publications" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-university"></i>
+                
+                论文发表
+            </a>
+        </li>
+        
+        <li>
+            <a href="/projects" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-cubes"></i>
+                
+                研究项目
+            </a>
+        </li>
+        
+        <li>
+            <a href="/resources" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-download"></i>
+                
+                开放资源
+            </a>
+        </li>
+        
+        <li>
+            <a href="/contact" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-envelope"></i>
+                
+                联系方式
+            </a>
+        </li>
+        
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        论文发表
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-05-31
+                </div>
+
+                
+				
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="Monographs"><a href="#Monographs" class="headerlink" title="Monographs"></a>Monographs</h2><ol>
+<li>黄永峰，《IP网络多媒体通信技术》，人民邮电出版社，2003.1</li>
+<li>黄永峰，《因特网语音通信技术》，人民邮电出版社，2001,12（863高技术丛书）</li>
+<li>黄永峰，厥勇等,《 Windows/Linux/UNIX综合组网技术》，清华大学出版社，2002.9</li>
+<li>李星，黄永峰，《高速计算机互联网络》，人民邮电出版社，2005.6（“十五”国家重点图书出版规划项目）</li>
+<li>王欣靖，李星，黄永峰，《网络新技术点评》，人民邮电出版社, 2003,12</li>
+<li>黄永峰，李星，《计算机网络教程》，清华大学出版社，2006.2(清华大学信息技术学院系列教材）</li>
+<li>黄永峰，邓泽，《Data &amp; Voice Network》,人民邮电出版社, 2002.10</li>
+<li>黄永峰，周可，《Route and switch》,人民邮电出版社, 2004.3</li>
+<li>黄永峰、赵建庆编著，SIP协议及其应用，人民邮电出版社，2009.1</li>
+</ol>
+<h2 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h2><h3 id="2013"><a href="#2013" class="headerlink" title="2013"></a>2013</h3><ol>
+<li>Yong Feng Huang*, Shanyu Tang, Wanxia Yang. An Information – Theoretical Model for Streaming Media Based Stegosystems, Computer and Informatic, Vol.32, No.1, pp. 47-62.2013.1(SCI收录)</li>
+<li>Huang Yongfeng,Bao Chunlan An Information – Theoretical Model for Streaming Media Based Stegosystems，computer and informatic，Vol.20.N0.1,2013.P1-15</li>
+<li>Fangzhao Wu, Yangqiu Song, Shixia Liu, Yongfeng Huang, and Zhenyu Liu. 2013. Lead-lag analysis via sparse co-projection in correlated text streams. In Proceedings of the 22nd ACM international conference on Conference on information &amp; knowledge management (CIKM ’13). ACM, New York, NY, USA, 2069-2078.</li>
+<li>Bingkun Wang, Yulin Min, Yongfeng Huang, Xing Li, and Fangzhao Wu. 2013. Review rating prediction based on the content and weighting strong social relation of reviewers. In Proceedings of the 2013 international workshop on Mining unstructured big data using natural language processing. ACM, New York, NY, USA, 23-30.</li>
+<li>Long Ziyi; Cheng Fu Sui Jing; Sun Donghong; Huang Yongfeng, “Research on methods to identify the opinion leaders in internet community,” 2013 4th IEEE International Conference on Software Engineering and Service Science, pp.934-937, 23-25 May 2013</li>
+<li>刘哲，黄永峰，罗芳，陈跻，王丙坤。网络新词识别方法研究，计算机工程与科学，vol.35 No.9, Sep.2013.</li>
+<li>Bingkun Wang, Yulin Min, Yongfeng Huang, Xing Li，Chinese reviews sentiment classification based on quantified sentiment lexicon and fuzzy set， ICIST 2013</li>
+<li>Yuan J, Huang Y, Li X, A Quantitation Method to the Imperceptibility of Hiding-Vector in Multi-dimensional Hiding Space[J]. Chinese Journal of Electronics, 2013. 4(22): 826-832.</li>
+<li>Yuan J, Huang Y, Li X. A Method to Build Subliminal Channel in Streaming Media with Multiple Steganography Methods: 1st IEEE China Summit and International Conference on Signal and Information Processing. 2013: Beijing, China[C].</li>
+<li>袁键, 黄永峰, 李星. 动态量化码本上的量化索引调制隐写算法研究: 第十一届全国信息隐藏暨多媒体信息安全学术大会(CIHW2013). 2013: 西安[C].</li>
+<li>李松斌, 黄永峰, 卢记仓. 基于统计模型及SVM的低速率语音编码QIM隐写检测[J]. 计算机学报, 2013. 36(6): 1168-1176.</li>
+<li>师尚伟, 黄永峰, 胡萍. 网络流媒体多维隐藏理论的应用研究: 第十一届全国信息隐藏暨多媒体信息安全学术大会(CIHW2013). 2013: 西安[C].</li>
+</ol>
+<h3 id="2012"><a href="#2012" class="headerlink" title="2012"></a>2012</h3><ol>
+<li>Yongfeng Huang, Chenghao Liu, Shanyu Tang, Sen Bai,Steganography Integrating into Low-bit Rate Speech Codec.IEEE Transactions on Information Forensics and Security, Volume: 7, Issue: 6, pp. 1865-1875, 2012, 12.</li>
+<li>Yongfeng Huang, L. Ying, J. Yuan, S. Tang。Network service registration based on role-goal-process-service meta-model in a P2P network.IET Communications, Volume: 6, Issue: 12, pp. 1632-1639, 2012.</li>
+<li>Lizhi Ying*, Yongfeng Huang,Jian Yuan,Yunlu Bai,A novel covert timing channel based on RTP and RTCP.Chinese Journal of Electronics, Vol.21, No.4, pp.711-714, 2012</li>
+<li>Songbin Li<em>, Huaizhou Tao</em>, Yongfeng Huang,Detection of quantization index modulation steganography in G. 723.1 bit stream based on quantization index sequence analysis, J Zhejiang Univ.-Sci. C (Comput. &amp; Electron.), Vol.13. No.8, P624-534. AUG., 2012.</li>
+<li>Bingkun WANG, Yongfeng HUANG, Wanxia YANG, Xing Li Short text classification based on strong feature thesaurus J Zhejiang Univ.-Sci. C (Comput. &amp; Electron.). Vol.13. No.9, P649-659. Sept, 2012</li>
+<li>李松斌*, 孙东红, 袁键，黄永峰.一种基于码字分布特性的G.729A压缩语音流隐写检测方法, 电子学报, 2012, 40(4)</li>
+<li>Lizhi Ying<em>, Xinhao Zhou</em>, Jian Yuan*, Yongfeng Huang.A novel focused crawler based on Breadcrumb navigation .Advances in Swarm Intelligence. Proceedings Third International Conference, ICSI 2012, pp. 264-271</li>
+<li>应励志, 袁键, 黄永峰, 李星.基于数据及其控制协议的协同时分信息隐藏算法.北京邮电大学学报，成功申请全国信息隐藏大学优秀论文奖。</li>
+<li>Hongwei Zhao, Yongfeng Huang.An improve method for combination feature selection in web click-through data mining. ISISE 2012. [10] Zhen Yang, Yongfeng Huang, Huaizhou Tao, Wanxia Yang.Protocol of steganography in streaming media on VOIP network based on variable length coding.National conference on information technology and computer science, CITCS 2012, pp: 702-705</li>
+</ol>
+<h3 id="Selected-papers-before-2012"><a href="#Selected-papers-before-2012" class="headerlink" title="Selected papers before 2012"></a>Selected papers before 2012</h3><ol>
+<li>Yongfeng Huang,Mingchao Chen, Jian Yuan .Key distribution in the covert communication based on Voip,Chinese Journal of Electronics, Vol.20,N0.2,P357-360,March,2011.</li>
+<li>Huang Yong feng, Li Xing .The Caching Strategy and Pre-storage Algorithms of the Media-stream Server, Chinese Journal of Electronics, 2006.6，Vol.15,No.2</li>
+<li>Huang Yong feng, Li Xing. Petri Net Modeling and Performance Analyzing for MGC, Chinese Journal of Electronics,2004.12,Vol.13, No.4, pp634-637</li>
+<li>Huang Yongfeng，Li Xing .Fast Echo Canceller In IP Telephony Gateway,Chinese Journal of Electronics.2004.2,No.1,Vol.13,pp96-105</li>
+</ol>
+
+            </div>
+            <hr/>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            
+
+
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6 overflow-policy" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/publications/index.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="论文发表">
+                        
+                        <span class="card-title">论文发表</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Monographs
+黄永峰，《IP网络多媒体通信技术》，人民邮电出版社，2003.1
+黄永峰，《因特网语音通信技术》，人民邮电出版社，2001,12（863高技术丛书）
+黄永峰，厥勇等,《 Windows/Linux/UNIX综合组网技术
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-31
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            NGNLab
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+            </div>
+            <div class="card">
+                <a href="/publications/index.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="论文发表">
+                        
+                        <span class="card-title">论文发表</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Monographs
+黄永峰，《IP网络多媒体通信技术》，人民邮电出版社，2003.1
+黄永峰，《因特网语音通信技术》，人民邮电出版社，2001,12（863高技术丛书）
+黄永峰，厥勇等,《 Windows/Linux/UNIX综合组网技术
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-31
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            NGNLab
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fa fa-list"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            Lab of New Generation Network Technology & Applications (NGNLab)
+
+            
+
+            
+			
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+    <a href="https://github.com/thu-ngnlab" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:ngnlab.thu@outlook.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>NGNLab</title>
+  
+  <subtitle>NGNLab</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ngnlab.cn/"/>
+  <updated>2019-07-05T11:00:12.708Z</updated>
+  <id>http://ngnlab.cn/</id>
+  
+  <author>
+    <name>NGNLab</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome</title>
+    <link href="http://ngnlab.cn/2019/hello-world/"/>
+    <id>http://ngnlab.cn/2019/hello-world/</id>
+    <published>2019-05-31T15:59:59.000Z</published>
+    <updated>2019-07-05T11:00:12.708Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
