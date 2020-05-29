@@ -5,9 +5,9 @@
   <subtitle>NGNLab</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://ngnlab.cn/"/>
-  <updated>2019-07-05T11:00:12.708Z</updated>
-  <id>http://ngnlab.cn/</id>
+  <link href="http://thungnlab.cn/"/>
+  <updated>2020-05-29T07:57:46.971Z</updated>
+  <id>http://thungnlab.cn/</id>
   
   <author>
     <name>NGNLab</name>
@@ -17,9 +17,63 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Time for Editors-in-chief of Nature</title>
+    <link href="http://thungnlab.cn/2019/time-for-editors-in-chief/"/>
+    <id>http://thungnlab.cn/2019/time-for-editors-in-chief/</id>
+    <published>2019-08-31T15:59:59.000Z</published>
+    <updated>2020-05-29T07:57:46.971Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Time for Editors-in-chief of Nature</title>
+    <link href="http://thungnlab.cn/2019/time-for-editors-in-chief_bk/"/>
+    <id>http://thungnlab.cn/2019/time-for-editors-in-chief_bk/</id>
+    <published>2019-08-31T10:55:35.000Z</published>
+    <updated>2020-05-29T07:57:46.988Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!DOCTYPE HTML&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.9.0&quot;&gt;
+	&lt;title&gt;Time for Editors-in-chief of Nature&lt;/title&gt;
+	&lt;meta
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Welcome</title>
-    <link href="http://ngnlab.cn/2019/hello-world/"/>
-    <id>http://ngnlab.cn/2019/hello-world/</id>
+    <link href="http://thungnlab.cn/2019/hello-world/"/>
+    <id>http://thungnlab.cn/2019/hello-world/</id>
     <published>2019-05-31T15:59:59.000Z</published>
     <updated>2019-07-05T11:00:12.708Z</updated>
     
